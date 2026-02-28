@@ -5,9 +5,10 @@ export const USER_ROLES = [
 ]
 
 export const PAYMENT_METHODS = [
-  { value: 'cash', label: 'Cash', icon: '💵' },
-  { value: 'card', label: 'Credit/Debit Card', icon: '💳' },
-  { value: 'transfer', label: 'Bank Transfer', icon: '🏦' }
+  { value: 'cash', label: 'Cash Payment', icon: '💵' },
+  // TODO: Add more payment methods in the future
+  // { value: 'card', label: 'Credit/Debit Card', icon: '💳' },
+  // { value: 'transfer', label: 'Bank Transfer', icon: '🏦' }
 ]
 
 export const TRANSACTION_TYPES = [

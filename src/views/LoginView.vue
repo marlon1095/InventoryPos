@@ -140,19 +140,19 @@ async function handleResetPassword() {
         </form>
 
         <!-- Demo credentials -->
-        <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+        <!-- <div class="mt-6 p-4 bg-gray-50 rounded-lg">
           <p class="text-xs font-medium text-gray-500 mb-2">Demo Credentials:</p>
           <div class="space-y-1 text-xs text-gray-600">
             <p><span class="font-medium">Admin:</span> admin@demo.com / demo123</p>
             <p><span class="font-medium">Manager:</span> manager@demo.com / demo123</p>
             <p><span class="font-medium">Cashier:</span> cashier@demo.com / demo123</p>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Footer -->
       <p class="text-center text-primary-200 text-sm mt-8">
-        © 2024 InventoryPOS. All rights reserved.
+        © 2026 InventoryPOS. All rights reserved.
       </p>
     </div>
 

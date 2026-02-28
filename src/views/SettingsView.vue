@@ -367,7 +367,7 @@ onMounted(() => {
         <h2 class="text-2xl font-bold text-gray-900 mb-2">InventoryPOS</h2>
         <p class="text-gray-500 mb-4">Version 1.0.0</p>
         <p class="text-sm text-gray-400 max-w-md mx-auto">
-          A simple inventory management and point of sale system built with Vue.js and Firebase.
+          A modern, full-featured inventory management and point-of-sale application.
         </p>
       </div>
     </div>

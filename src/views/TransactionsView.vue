@@ -348,8 +348,9 @@ onMounted(() => {
           <select v-model="paymentFilter" class="input w-auto">
             <option value="">All Payments</option>
             <option value="cash">Cash</option>
-            <option value="card">Card</option>
-            <option value="transfer">Transfer</option>
+            <!-- TODO: Add more payment methods in the future -->
+            <!-- <option value="card">Card</option> -->
+            <!-- <option value="transfer">Transfer</option> -->
           </select>
         </div>
       </div>
