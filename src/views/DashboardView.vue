@@ -10,6 +10,8 @@ import { formatCurrency, formatNumber, formatDate, capitalize } from '@/utils/fo
 import { DATE_RANGES } from '@/utils/constants'
 import * as echarts from 'echarts'
 
+// test
+
 const authStore = useAuthStore()
 const inventory = useInventoryStore()
 const dashboard = useDashboardStore()
