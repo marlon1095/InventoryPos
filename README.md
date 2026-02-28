@@ -44,11 +44,11 @@ src/
 
 | Feature | Admin | Manager | Cashier |
 |---------|-------|---------|---------|
-| Dashboard | ✅ | ✅ | ✅ |
+| Dashboard | ✅ | ✅ | ❌ |
 | POS | ✅ | ✅ | ✅ |
-| View Inventory | ✅ | ✅ | ✅ |
+| View Inventory | ✅ | ✅ | ❌ |
 | Manage Inventory | ✅ | ✅ | ❌ |
-| View Transactions | ✅ | ✅ | ✅ |
+| View Transactions | ✅ | ✅ | ❌ |
 | Void Transactions | ✅ | ✅ | ❌ |
 | Manage Users | ✅ | ❌ | ❌ |
 | Settings | ✅ | ❌ | ❌ |
