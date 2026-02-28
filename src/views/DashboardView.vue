@@ -77,15 +77,22 @@ const filteredCategoryData = computed(() => {
   
   filteredTransactions.value.forEach(t => {
     t.items?.forEach(item => {
-      const category = item.productName?.split(' ')[0] || 'Other'
-      const existing = categorySales.get(category) || {
-        category,
+      // Get the actual category from the product in inventory
+      const product = inventory.products.find(p => p.id === item.productId)
+      const categoryId = product?.category || null
+      
+      // Get category name from inventory categories
+      const categoryObj = inventory.categories.find(c => c.id === categoryId)
+      const categoryName = categoryObj?.name || 'Uncategorized'
+      
+      const existing = categorySales.get(categoryName) || {
+        category: categoryName,
         quantity: 0,
         revenue: 0
       }
       existing.quantity += item.quantity || 0
       existing.revenue += item.subtotal || 0
-      categorySales.set(category, existing)
+      categorySales.set(categoryName, existing)
     })
   })
   
